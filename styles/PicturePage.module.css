@@ -1,0 +1,13 @@
+
+.mainContent{
+    background-color: rgb(104, 89, 89);   
+    height: 100vh;
+    margin: 0;
+}
+.inputId{
+    height: 30px;
+    width: 300px;
+}
+.formTop{
+    text-align: center;
+}

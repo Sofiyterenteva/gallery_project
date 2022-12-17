@@ -1,0 +1,9 @@
+.picture{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
