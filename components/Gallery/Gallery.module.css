@@ -1,9 +1,23 @@
+.box{
+    display: flex;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .picture{
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 80px;
+    width: 100px;
     padding-bottom: 50px;
-    align-items: center;
-    justify-items: center;
     position: relative;
+    
 }
+/* .main_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+
+} */

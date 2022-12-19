@@ -3,6 +3,7 @@
     background-color: rgb(104, 89, 89);   
     height: 100vh;
     margin: 0;
+    box-sizing: border-box;
 }
 .inputId{
     height: 30px;
@@ -10,4 +11,14 @@
 }
 .formTop{
     text-align: center;
+}
+.arrow{
+    display: flex;
+}
+
+.picture_selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

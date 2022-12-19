@@ -1,16 +1,25 @@
 import React from 'react'
 import css from './Gallery.module.css'
-import Image from 'next/image'
+import {useState} from "react";
 
-export let Gallery = ({children, images}) => 
+
+export let Gallery = ({images}) => 
 {
+    const [curr, setCurr] = useState(images[0]);
+    
     return(
-        <div>{images.map((el,i)=>(
-        <Image className={css.picture} key={i} src={el.url} alt='image' width={500} height={500}/>
-        ))}</div>
-    )
+        
+        <div className={css.main_image}>
+            <img  src={curr.url} alt='image'/>
+            <div className={css.box}>       
+        
+                {images.map((el,i)=>(
+                <img className={css.picture} key={i} src={el.url} alt='image' onClick = {e => setCurr(e.target.src) } />
+            ))}
+            </div>
+        </div>
+    )   
 }
 
 
 
-  {/* <div key={i}>{el.url}</div> */}
