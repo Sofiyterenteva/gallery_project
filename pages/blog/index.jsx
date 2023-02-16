@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {List} from "../../components/List/List"
 import {Button} from "../../components/Button/Button"
-import { setConstantValue } from "typescript";
+import Image from 'next/image';
+import Link from "next/link";
 
 export default function NewPage(){
     let [content, setContent] = useState(null);
@@ -45,6 +46,9 @@ export default function NewPage(){
             
             <span>{time}</span>
             {content && <List content={content?.slice(page * 10, (page + 1) * 10)} />}
+
+            {/* <Image src='/public/cat.jpg' width={50} height={50} alt='cat'/>
+            <Link href='./[...id].jsx'>Here</Link> */}
 
         </div>
     );

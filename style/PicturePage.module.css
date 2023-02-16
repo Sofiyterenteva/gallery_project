@@ -1,7 +1,7 @@
 
 .mainContent{
-    background-color: rgb(104, 89, 89);   
-    height: 100vh;
+    background-color: rgb(43, 64, 90);   
+    height: 100%;
     margin: 0;
     box-sizing: border-box;
 }
@@ -20,5 +20,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+}
 
+.description
+{
+    margin-top: 0;
+    color: rgb(159, 159, 189);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px ;
 }

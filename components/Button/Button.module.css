@@ -1,5 +1,5 @@
 .button{
-    background-color:rgb(187, 235, 235);
+    background-color:rgb(231, 231, 216);
     padding: 3px 3px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 7px;
@@ -10,5 +10,5 @@
 } 
 .button:hover{
     box-shadow: none;
-    background-color: rgb(184, 216, 236);
+    background-color: rgb(223, 216, 171);
 }
